@@ -1,0 +1,25 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom, #99CBFF, transparent);
+
+}
+
+.stack-pane {
+    -fx-padding: 10;
+    -fx-background-color: lightgrey;
+    -fx-background-radius: 10;
+    -fx-border-color: #39FF14;
+    -fx-border-radius: 5;
+    -fx-border-width: 10;
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+}
+
+.text-area {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-control-inner-background: transparent;
+    -fx-control-inner-background-alt: transparent;
+    -fx-padding: 0;  /* Rimuovi padding */
+    -fx-text-fill: black;
+}

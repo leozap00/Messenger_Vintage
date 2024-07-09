@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.messenger_vintage.controller.MessageListItemController">
+   <top>
+      <Label fx:id="userLabel" prefHeight="17.0" prefWidth="93.0" BorderPane.alignment="TOP_LEFT">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+   </top>
+   <center>
+      <VBox fx:id="contentBox" BorderPane.alignment="CENTER">
+         <TextArea fx:id="msgTextArea" wrapText="true" VBox.vgrow="ALWAYS" prefHeight="25.0" prefWidth="350.0" styleClass="text-area"
+                   stylesheets="@style.css">
+            <font>
+               <Font name="System Italic" size="12.0"/>
+            </font>
+         </TextArea>
+         <ImageView fx:id="imageView" fitHeight="150.0" fitWidth="200.0"  pickOnBounds="true" preserveRatio="true" visible="false"/>
+      </VBox>
+   </center>
+</BorderPane>

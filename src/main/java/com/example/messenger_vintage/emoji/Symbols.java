@@ -1,0 +1,28 @@
+package com.example.messenger_vintage.emoji;
+
+public enum Symbols {
+    anger, zzz, yellow_heart, blue_heart, purple_heart, green_heart, heart,
+    broken_heart, heartpulse, heartbeat, two_hearts, sparkling_heart,revolving_hearts, cupid,
+    love_letter, speech_balloon, thought_balloon, globe_with_meridians, gift_heart, warning, beginner,hotsprings, one, two,
+    three, four, five, six, seven, eight, nine, zero, keycap_ten, hash, symbols, arrow_up,arrow_down,arrow_left,arrow_right,
+    capital_abcd, abcd, abc, arrow_upper_right, arrow_upper_left, arrow_lower_right, arrow_lower_left, left_right_arrow,
+    arrow_up_down, arrows_counterclockwise, arrow_backward,arrow_forward,arrow_up_small,arrow_down_small,leftwards_arrow_with_hook,
+    arrow_right_hook, information_source, rewind, fast_forward, arrow_double_up,arrow_double_down, arrow_heading_down,arrow_heading_up,
+    ok, twisted_rightwards_arrows, repeat, repeat_one, up, cool, free, squared_ng, signal_strength, cinema, koko, u6307,
+    u7a7a, u6e80, u5408, u7981, ideograph_advantage, u5272, u55b6, u6709, u7121, restroom, mens, womens, baby_symbol, wc,
+    potable_water, put_litter_in_its_place, parking, wheelchair, no_smoking, u6708, u7533, sa, m, passport_control,
+    baggage_claim, left_luggage,customs, accept, secret, congratulations, cl ,sos, id, no_entry_sign, underage, no_mobile_phones,
+    do_not_litter,no_bicycles, no_pedestrians, children_crossing, no_entry, eight_spoked_asterisk, sparkle, negative_squared_cross_mark,
+    white_check_mark, eight_pointed_black_star, heart_decoration, vs, vibration_mode, mobile_phone_off, a, b, ab, o2,
+    diamond_shape_with_a_dot_inside, loop, recycle, aries, taurus, gemini, cancer, leo, virgo, libra, scorpius, sagittarius,
+    capricorn, aquarius, pisces, ophiuchus, six_pointed_star, atm, chart, heavy_dollar_sign, currency_exchange, copyright,
+    registered, tm, x, bangbang, interrobang, exclamation, question, grey_exclamation, grey_question, o, top, end, back,
+    on, soon, arrows_clockwise, clock12,clock1230,clock1,clock130,clock2,clock230,clock3,clock330,clock4,clock430,clock5,
+    clock530,clock6,clock7,clock8,clock9,clock10,clock11,clock730,clock630,clock830,clock930,clock1030,clock1130,
+    heavy_multiplication_x, heavy_plus_sign, heavy_minus_sign, heavy_division_sign, spades, hearts, clubs, diamonds,
+    white_flower, heavy_check_mark, ballot_box_with_check, radio_button, link, curly_loop, wavy_dash, part_alternation_mark,
+    trident, black_medium_square, white_medium_square, black_medium_small_square, white_medium_small_square, black_small_square,
+    white_small_square, small_red_triangle, black_square_button, white_square_button, black_circle, white_circle, red_circle,
+    large_blue_circle, small_red_triangle_down, white_large_square, black_large_square, large_orange_diamond,
+    large_blue_diamond, small_orange_diamond,small_blue_diamond,
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<ScrollPane visible="false" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.messenger_vintage.controller.EmojiController">
+    <content>
+        <Pane fx:id="emojiPane" prefHeight="137.0" prefWidth="319.0">
+            <children>
+            <ScrollPane prefHeight="96.0" prefWidth="321.0">
+               <content>
+                  <FlowPane fx:id="emojiFlowPane" hgap="5.0" prefHeight="93.0" prefWidth="318.0" vgap="5.0" />
+               </content>
+            </ScrollPane>
+            <ScrollPane fitToHeight="true" fitToWidth="true" layoutY="96.0" prefHeight="44.0" prefWidth="321.0">
+               <content>
+                  <HBox>
+                     <children>
+                            <ToolBar fx:id="emojiToolBar" prefHeight="42.0" prefWidth="319.0">
+                                <items>
+                                    <Button fx:id="peopleButton" mnemonicParsing="false" text="people" />
+                                    <Button fx:id="natureButton" mnemonicParsing="false" text="nature" />
+                                    <Button fx:id="objectsButton" mnemonicParsing="false" text="objects" />
+                                    <Button fx:id="activityButton" mnemonicParsing="false" text="activity" />
+                                    <Button fx:id="diversityButton" mnemonicParsing="false" text="diversity" />
+                                    <Button fx:id="foodButton" mnemonicParsing="false" text="food" />
+                                    <Button fx:id="regionalButton" mnemonicParsing="false" text="regional" />
+                                    <Button fx:id="symbolsButton" mnemonicParsing="false" text="symbols" />
+                                    <Button fx:id="travelButton" mnemonicParsing="false" text="travel" />
+                                    <Button fx:id="flagsButton" mnemonicParsing="false" text="flags" />
+                                </items>
+                            </ToolBar>
+                     </children>
+                  </HBox>
+               </content>
+            </ScrollPane>
+            </children>
+        </Pane>
+    </content>
+</ScrollPane>

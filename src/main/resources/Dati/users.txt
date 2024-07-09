@@ -1,0 +1,6 @@
+6
+1%User%User%Utente%Mario%Rossi%Online
+2%Utente%Utente%Utente%Luigi%Bianchi%Offline
+3%Test%Test%Utente%Giacomo%Ventura%Busy
+4%Prova%Prova%Utente%Bob%Il Manichino%Online
+5%qwertz%Prova123%Utente%Giovanni%Paolo%Online
